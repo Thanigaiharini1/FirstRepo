@@ -1,0 +1,28 @@
+2023-02-13T14:08:29.551+05:30  INFO 36140 --- [main] com.example.demo.Demos1Application       : Starting Demos1Application using Java 17.0.1 with PID 36140 (D:\sp1\demos1\target\classes started by thanigaiharini.s in D:\sp1\demos1)
+2023-02-13T14:08:29.563+05:30  INFO 36140 --- [main] com.example.demo.Demos1Application       : No active profile set, falling back to 1 default profile: "default"
+2023-02-13T14:08:30.995+05:30  INFO 36140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-13T14:08:31.077+05:30  INFO 36140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2023-02-13T14:08:31.982+05:30  INFO 36140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-13T14:08:31.995+05:30  INFO 36140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-13T14:08:31.995+05:30  INFO 36140 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-13T14:08:32.157+05:30  INFO 36140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-13T14:08:32.158+05:30  INFO 36140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2503 ms
+2023-02-13T14:08:32.210+05:30  INFO 36140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-13T14:08:32.606+05:30  INFO 36140 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2023-02-13T14:08:32.608+05:30  INFO 36140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-13T14:08:32.619+05:30  INFO 36140 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2023-02-13T14:08:33.170+05:30  INFO 36140 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-13T14:08:34.506+05:30  INFO 36140 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-13T14:08:35.129+05:30  WARN 36140 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-13T14:08:38.870+05:30  INFO 36140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-13T14:08:38.905+05:30  INFO 36140 --- [main] com.example.demo.Demos1Application       : Started Demos1Application in 10.236 seconds (process running for 11.789)
+2023-02-13T14:08:40.047+05:30  INFO 36140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-13T14:08:40.049+05:30  INFO 36140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-13T14:08:40.052+05:30  INFO 36140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-02-13T14:08:41.785+05:30  INFO 36140 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 724 ms
+2023-02-13T14:10:50.649+05:30  INFO 36140 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-13T14:10:50.667+05:30  INFO 36140 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-13T14:10:50.668+05:30  INFO 36140 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-13T14:10:50.676+05:30  INFO 36140 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-13T14:10:50.678+05:30  INFO 36140 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-13T14:10:50.681+05:30  INFO 36140 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
